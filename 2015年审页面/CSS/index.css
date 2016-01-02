@@ -1,0 +1,489 @@
+/* global */
+body {display: none; font-family: Arial, "微软雅黑"; background-image: url("../images/body_bg.png");}
+.lucency {filter: alpha(opacity=0); -moz-opacity: 0; -khtml-opacity: 0; opacity: 0;} /* 透明 */
+.comeOut {filter: alpha(opacity=1); -moz-opacity: 1; -khtml-opacity: 1; opacity: 1;} /* 实体 */
+.inner {max-width: 1004px;} /* inner盒 */
+.clearFloat {clear: both; float: none !important;} /* 清浮动 */
+.like_a_button {cursor: pointer;}
+
+/* titles */
+.module_title {line-height: 57px; color: #fff; background-color: #747474; font-size: 33px; font-weight: bolder;}
+.module_title_with_logo {color: #fff; background-color: #747474; font-size: 33px; font-weight: bolder; overflow: hidden; height: 65px; }
+.module_title_with_logo img {padding-right: 69px;}
+.module_title_with_logo ul {display: inline-block; line-height: 65px; width: 1004px;}
+.module_title_with_logo ul li {float: left;}
+
+/* gotoTop */
+#gotoTop {width: 74px; height: 74px; left: 50%; margin-left: 514px; bottom: 0; position: fixed; background-image: url("../images/gotoTop_01.png");    text-align: center;}
+
+/* header */
+#header {text-align: center; background-color: #000;}
+#header .header_login {padding: 1px 53px 3px 0; font-size: 12px; vertical-align: top; text-align: right;}
+#header .header_login input {border: 1px #c5c5c5 solid; vertical-align: middle;}
+#header .header_login a { color: #fff; padding-right: 17px;}
+#header .header_middle {text-align: left;}
+#header .header_middle .logo {padding: 0 112px 0 3px ; }
+#header ul {padding: 8px 0 1px 45px;}
+#header ul > li {float: left; font-size: 12px;}
+#header ul > li a {padding: 0 7px 0 6px; color: #fff; line-height: 28px; display: block; background-image: url("../images/header_nav_bg.png"); background-repeat: no-repeat; background-position: center bottom; float: left;}
+#header ul > li span {padding: 0 2px; color: #fff; display: block; float: left; line-height: 28px; }
+
+/* banner */
+#banner {background-image: url("../images/banner_bg.png"); background-repeat: repeat-x; padding-top: 3px; border-bottom: 10px solid #cf0b0b; overflow: hidden; max-width: 1920px;}
+#banner .banner_inner {width: 1920px; margin: 0 auto;}
+#banner .banner_inner > div {float: left;}
+#banner img {display: inline-block;}
+#banner > div > div > div {float: left; text-align: center;}
+#banner .left {width: 677px;}
+#banner .middle {width: 574px; background-image: url("../images/banner_middle_bg.png"); height: 409px; text-align: center; color: #FFF; padding-top: 24px;}
+#banner .middle p {height: 275px;}
+#banner .middle .sp1 {font-size: 72px; line-height: 89px;}
+#banner .middle .sp2 {font-size: 97px; line-height: 112px; font-weight: 900;}
+#banner .middle .sp3 {font-size: 60px; line-height: 74px; font-weight: lighter;}
+#banner .middle .pic1 {width: 319px; height: 40px; margin: 0 auto; display: inline-block; background-image: url("../images/banner_middle_img1.png"); margin-top: 9px; float: none;}
+#banner .middle form {height: 44px; width: 343px; background-image: url("../images/banner_middle_img2.png"); margin: 0 auto; margin-top: 16px; text-align: left; padding:7px 0 0 36px;}
+#banner .middle form .text {border: none; line-height: 38px; background-image: url("../images/banner_middle_text_bg.png"); width: 202px; margin-right: 13px; color: #ababab; vertical-align: middle;}
+#banner .middle form .getGold {width: 108px; height: 38px; vertical-align: middle;}
+#banner .right {width: 669px;}
+
+/* 大机构就是这么任性 */
+#bigOrg {text-align: center; padding-bottom: 22px;}
+#bigOrg .title {padding-top: 18px; text-align: center; line-height: 66px; font-size: 38px;}
+#bigOrg .sub_title {height: 62px; width: 240px; margin: 0 auto; background: url("../images/bigOrg_1.png") bottom center no-repeat;}
+#bigOrg .sub_title p{height: 53px; background-color: #cd010d; line-height: 53px; color: #fff; font-size: 30px;}
+#bigOrg ul {padding: 20px 0 22px 28px;}
+#bigOrg ul li {float: left; width: 234px; margin-right: 7px; height: 250px;}
+#bigOrg ul li .p_1 {padding-top: 116px;}
+#bigOrg ul li p {line-height: 43px; height: 43px; color: #fff; font-size: 18px;}
+#bigOrg ul li .modify {text-align: left;}
+#bigOrg ul li .modify_1 {margin-left: 43px;}
+#bigOrg ul li .modify_2 {margin-left: 22px;}
+#bigOrg ul li .modify_3 {margin-left: 6px;}
+#bigOrg ul .li_1 {background-image: url("../images/bigOrg_03.png");}
+#bigOrg ul .li_2 {background-image: url("../images/bigOrg_05.png");}
+#bigOrg ul .li_3 {background-image: url("../images/bigOrg_07.png");}
+#bigOrg ul .li_4 {background-image: url("../images/bigOrg_09.png");}
+
+/* appleWatch */
+#appleWatch {text-align: center;}
+#appleWatch .bgi {background: url("../images/appleWatch_02.png") no-repeat -34px 156px;}
+#appleWatch h2 {line-height: 64px; padding-top: 22px; font-size: 40px; font-weight: bolder; color: #3d3d3d;}
+#appleWatch h1 {line-height: 89px; font-size: 65px; font-weight: 900; color: #f63e00;}
+#appleWatch ul {padding-top: 32px; margin-left: 329px; overflow: hidden;}
+#appleWatch ul li {float: left;}
+#appleWatch ul .pic_1 {margin-left: -299px;}
+#appleWatch ul .pic_2 {margin-left: -673px;}
+#appleWatch ul li p {font-size: 16px; line-height: 35px; color: #666;}
+#appleWatch h3 {font-size: 27px; line-height: 99px; color: #a4a4a4; text-align: center; padding-bottom: 19px;}
+
+/* update */
+#upgrade {text-align: center;}
+#upgrade .m_title {padding: 51px 0 17px 45px;}
+#upgrade .m_title li {float: left; margin-right: 7px; width: 225px; height: 54px; line-height: 54px; font-size: 33px; color: #fff; font-family: "幼圆";}
+#upgrade .m_title .li_1 {background-color: #00b2e5;}
+#upgrade .m_title .li_2 {background-color: #ffe115;}
+#upgrade .m_title .li_3 {background-color: #44b457;}
+#upgrade .m_title .li_4 {background-color: #f57e7e;}
+#upgrade h2 {font-size: 44px; line-height: 74px; color: #373636; font-weight: 900;}
+#upgrade h1 {font-size: 63px; line-height: 93px; color: #f43f00; font-weight: 900; padding-left: 43px; text-align: left; white-space: nowrap;}
+#upgrade > .inner > p {font-size: 18px; line-height: 21px; color: #333; padding: 21px 0 22px 47px; text-align: left;}
+#upgrade .jobs {padding: 0 0 26px 44px;}
+#upgrade .jobs li {float: left; width: 228px; margin-right: 4px;}
+#upgrade .jobs li .title {width: 226px; border: 1px #ec6941 solid;}
+#upgrade .jobs li .title div {height: 27px; padding-top: 14px;}
+#upgrade .jobs li .title h4 {line-height: 35px; font-size: 23px; color: #373737;}
+#upgrade .jobs li .pic {padding-top: 1px;}
+#upgrade .jobs li > p {padding: 11px 9px; line-height: 16px; font-size: 12px; text-align: left; background-color: #d7d7d7; color: #666;}
+#upgrade .readMore {padding-bottom: 52px;}
+
+/* audition */
+#audition {text-align: center;}
+#audition .innerBox {padding: 41px 0 64px 4px;}
+#audition .innerBox .box {background-color: #fff; padding: 12px 26px 16px 10px; width: 964px;}
+#audition .innerBox .box > div {float: left;}
+#audition .innerBox .box > ul {float: left; padding: 10px 18px 0 18px; width: 423px;}
+#audition .innerBox .box ul .top {border-bottom: #cfcfcf 1px solid; padding-bottom: 16px;}
+#audition .innerBox .box ul .top h1 {font-size: 25px; line-height: 39px; color: #d10b0b; font-weight: 900;}
+#audition .innerBox .box ul .top h2 {font-size: 20px; line-height: 24px; color: #333; font-weight: bolder;}
+#audition .innerBox .box ul .top h3 {font-size: 14px; line-height: 20px; color: #999;}
+#audition .innerBox .box ul .middle {padding: 33px 0 23px 0; text-align: left;}
+#audition .innerBox .box ul .middle div {line-height: 41px; height: 41px;}
+#audition .innerBox .box ul .middle div span {display: inline-block; width: 165px; text-align: right; font-size: 18px; color: #6c6c6c;}
+#audition .innerBox .box ul .middle div input {width: 159px;}
+#audition .innerBox .box ul .buttom {text-align: left; padding: 6px 0 0 8px; font-size: 12px; line-height: 21px; border-top: #cfcfcf 1px solid; margin-top: 22px; color: #828282;}
+
+/* master */
+#master {text-align: center;}
+#master .font_bold {font-weight: bold; color: #fff;}
+#master .font_yellow {color: #fff30a; font-weight: bold;}
+#master > .inner > div {float: left; text-align: left;}
+#master > .inner > div > ul {display: none;}
+#master > .inner > div > ul > div {display: none;}
+#master > .inner > div > .title {font-size: 16px; color: #ddd;}
+#master .left {width: 307px; padding-top: 165px; height: 391px;}
+#master .left .title_l {height: 45px; line-height: 38px; background: url("../images/master_1.png") no-repeat; padding-left: 10px;}
+#master .left .content_l {height: 346px; background: url("../images/master_4.png") no-repeat 34px bottom; padding-left: 188px; }
+#master .center {width: 332px; padding-top: 109px; height: 447px;}
+#master .center .title_c {height: 46px; line-height: 39px; background: url("../images/master_2.png") no-repeat; padding-left: 18px;}
+#master .center .content_c {height: 401px; background: url("../images/master_5.png") no-repeat 24px bottom; padding-left: 222px;}
+#master .right {width: 365px; padding-top: 27px; height: 529px;}
+#master .right .title_r {height: 52px; line-height: 40px; background: url("../images/master_3.png") no-repeat; padding-left: 27px;}
+#master .right .content_r {height: 477px; background: url("../images/master_6.png") no-repeat 69px bottom; padding-left: 236px;}
+#master > .inner > div > ul > div >  li {white-space: nowrap; color: #444; font-size: 14px; line-height: 22px;}
+#master > .inner > div > ul .title {width: 106px; line-height: 37px; font-size: 24px; color: #242424;  border-bottom: 1px solid #CCC;margin-bottom: 2px;}
+#master > .inner > div > ul .hot_title {margin-top: 16px;}
+#master .how {padding: 40px 0 35px 0; float: none !important; text-align: center !important;}
+
+/* adobe */
+#adobe {text-align: center;}
+#adobe .box {background: url("../images/adobe_2.png") no-repeat 5px top; height: 785px; text-align: left;}
+#adobe .box > li {float: left; overflow: hidden;}
+#adobe .box > li h2 {font-size: 25px; color: #222; white-space: nowrap;}
+#adobe .box > li .div_1 h2 {line-height: 46px;}
+#adobe .box > li .div_2 h2 {line-height: 40px; padding-top: 73px;}
+#adobe .box > li .div_3 h2 {line-height: 50px; padding-top: 82px;}
+#adobe .box > li .div_4 h2 {line-height: 46px; padding-top: 54px;}
+#adobe .box > li .div_5 {padding-top: 32px; margin-left: 123px;}
+#adobe .box > li .div_4 h2 {line-height: 42px;}
+#adobe .box > li h2 span {color: #ba0008}
+#adobe .box > li p {font-size: 14px; color: #666; white-space: nowrap; line-height: 21px;}
+#adobe .box > .left {padding-top: 42px; width: 330px; margin-left: 140px;}
+#adobe .box > .left .text {margin-left: -330px;}
+#adobe .box > .right {padding-top: 52px; width: 469px; margin-left: 65px;}
+#adobe .box > .right .text {margin-left: -346px;}
+#adobe .box > .readMore {padding-top: 76px; text-align: center; float: none;}
+
+/* appleClassroom */
+#appleClassroom {text-align: center;}
+#appleClassroom .inner {text-align: left;}
+#appleClassroom p {padding: 26px 0 17px 16px; color: #252525; font-size: 15px; line-height: 25px;}
+#appleClassroom ul {padding:0 0 23px 20px;}
+#appleClassroom ul li img {margin-left: 9px;}
+#appleClassroom ul .top {padding-bottom: 8px;}
+
+/* highPrice */
+#highPrice {text-align: center;}
+#highPrice .inner {text-align: left;}
+#highPrice h6 {color: #000; font-size: 14px; font-family: "宋体"; line-height: 22px; padding: 43px 0 31px 46px; background: url("../images/highPrice_1.png") no-repeat 13px 32px; }
+#highPrice h4 {padding: 0 0 8px 44px; line-height: 38px; font-size: 18px; background: url("../images/highPrice_2.png") no-repeat 23px top;}
+#highPrice h4 span {margin-right: 35px; color: #767676;}
+#highPrice h4 .white {color: #fff;}
+#highPrice h5 {padding-left: 26px; font-size: 14px; line-height: 22px; color: #666;}
+#highPrice .inner .data {padding: 15px 0 30px 0;}
+#highPrice .inner .data li {float: left;}
+#highPrice .inner .data .li_1 {width: 326px; padding-right: 17px; text-align: right;}
+#highPrice .inner .data .li_1 .price {font-size: 38px; line-height: 44px; color: #f16100; padding-bottom: 12px;}
+#highPrice .inner .data .li_1 p {font-size: 14px; line-height: 15px; color: #2c2c2c;}
+#highPrice .inner .data .li_2 {width: 661px; height: 130px; background: url("../images/highPrice_3.png") no-repeat;}
+#highPrice .inner .data .li_2 div {float: left; overflow: hidden;}
+#highPrice .inner .data .li_2 .block_1 {padding: 37px 0 0 85px; height: 66px;}
+#highPrice .inner .data .li_2 .block_1 img {margin-top: 66px;}
+#highPrice .inner .data .li_2 .block_2 {padding: 10px 0 0 34px; height: 94px;}
+#highPrice .inner .data .li_2 .block_2 img {margin-top: 94px;}
+#highPrice .inner .data .li_2 .block_3 {padding: 35px 0 0 34px; height: 69px;}
+#highPrice .inner .data .li_2 .block_3 img {margin-top: 69px;}
+#highPrice .inner .data .li_2 .block_4 {padding: 91px 0 0 35px; height: 13px;}
+#highPrice .inner .data .li_2 .block_4 img {margin-top: 13px;}
+#highPrice .inner .data .li_2 .block_5 {padding: 84px 0 0 35px; height: 20px;}
+#highPrice .inner .data .li_2 .block_5 img {margin-top: 20px;}
+#highPrice .pic {text-align: center; padding-bottom: 2px;}
+#highPrice h1 {line-height: 78px; font-size: 28px; color: #181818; font-weight: bolder; padding-left: 26px;}
+#highPrice .Jobs {height: 683px; background: url("../images/highPrice_10.png") no-repeat 170px -102px; position: relative;}
+#highPrice .Jobs li {position: absolute; display: none;}
+#highPrice .Jobs .li_1 {top: 0; left: 26px; width: 420px; background: url("../images/highPrice_11.png") no-repeat right 21px;}
+#highPrice .Jobs .li_1 .top { width: 325px; height: 60px;}
+#highPrice .Jobs .li_2 {top: 5px; left: 576px; width: 407px; padding-left: 77px; background: url("../images/highPrice_12.png") no-repeat left 17px;}
+#highPrice .Jobs .li_2 .top { width: 316px; height: 60px;}
+#highPrice .Jobs .li_3 {top: 409px; left: 27px; width: 409px; background: url("../images/highPrice_14.png") no-repeat right 6px;}
+#highPrice .Jobs .li_3 .top {width: 339px; height: 60px;}
+#highPrice .Jobs .li_4 {top: 413px; left: 593px; width: 334px; padding-left: 58px; background: url("../images/highPrice_13.png") no-repeat left 2px;}
+#highPrice .Jobs .li_4 .top {height: 56px;}
+#highPrice .Jobs li .top {padding: 5px 0 6px 14px; background-color: #937a5b;}
+#highPrice .Jobs li .top .font_yellow {line-height: 30px; font-size: 25px; color: #fede2b; font-weight: bolder;}
+#highPrice .Jobs li .top .font_white {line-height: 27px; font-size: 22px; color: #fff; font-weight: bold;}
+#highPrice .Jobs li p {padding: 8px 0 0 7px; font-size: 14px; line-height: 25px; color: #555;}
+
+/* oneStep */
+#oneStep {text-align: center;}
+#oneStep .inner {text-align: left;}
+#oneStep .software {height: 284px; background: url("../images/oneStep_1.png") no-repeat 13px 0; border-bottom: 2px solid #ddd;}
+#oneStep .software h1 {padding:23px 0 0 26px; font-size: 32px; line-height: 38px; color: #3e3325; font-weight: bolder;}
+#oneStep .software h2 {padding:0 0 0 26px; font-size: 30px; line-height: 36px; color: #3e3325;}
+#oneStep .software ul li {float: left; white-space: nowrap; font-size: 18px; position: relative;}
+#oneStep .software ul li img {display: none;}
+#oneStep .software ul li .pics {position: absolute;}
+#oneStep .software ul li .pics .img_style1 {margin-right: 10px;}
+#oneStep .software ul li .pics .img_style2 {margin-right: 20px;}
+#oneStep .software ul li .pics .img_style3 {margin-right: 30px;}
+#oneStep .software ul li .pics .img_style4 {margin-right: 13px;}
+#oneStep .software ul li .group_1 {top: 27px; left: 59px;}
+#oneStep .software ul li .group_2 {top: -25px; left: 32px;}
+#oneStep .software ul li .group_3 {top: -74px; left: -9px;}
+#oneStep .software ul li p {color: #3e3325;}
+#oneStep .software ul li p span { color: #ac6110; font-weight: bold;}
+#oneStep .software ul .li_1 {padding: 96px 0 0 17px; line-height: 43px; width: 299px;}
+#oneStep .software ul .li_2 {padding: 64px 0 0 0; line-height: 34px; width: 390px;}
+#oneStep .software ul .li_3 {padding: 7px 0 0 9px; line-height: 48px; width: 289px;}
+#oneStep .design {height: 80px; border-bottom: 2px solid #ddd; padding: 35px 0;}
+#oneStep .design > div {float: left;}
+#oneStep .design .left {background: url("../images/oneStep_13.png") no-repeat center right; width: 166px; height: 80px;}
+#oneStep .design .right {padding-left: 65px;}
+#oneStep .design .right h1 {font-size: 28px; line-height: 45px; font-weight: 900; color: #44413e;}
+#oneStep .design .right h4 {color: #3e3325; font-size: 18px; line-height: 33px;}
+#oneStep .profession {height: 126px; border-bottom: 2px solid #ddd;}
+#oneStep .profession > div {float: left;}
+#oneStep .profession .left {background: url("../images/oneStep_14.png") no-repeat 49px 19px; width: 166px; height: 126px;}
+#oneStep .profession .right {padding-left: 65px;}
+#oneStep .profession .right h1 {font-size: 28px; line-height: 47px; padding-top: 14px; font-weight: 900; color: #44413e;}
+#oneStep .profession .right h4 {color: #3e3325; font-size: 18px; line-height: 37px;}
+#oneStep .case {height: 266px;}
+#oneStep .case > div {float: left;}
+#oneStep .case .left {background: url("../images/oneStep_15.png") no-repeat 58px 68px; width: 166px; height: 266px;}
+#oneStep .case .right {padding-left: 65px;}
+#oneStep .case .right h1 {font-size: 28px; line-height: 61px; padding-top: 9px; font-weight: 900; color: #44413e;}
+#oneStep .case .right ul li {float: left; text-align: center;}
+#oneStep .case .right ul li p {color: #3e3325; font-size: 15px; line-height: 20px; padding-top: 10px; white-space: nowrap;}
+#oneStep .case .right ul .li_1 {width: 93px; padding: 0 79px 0 10px;}
+#oneStep .case .right ul .li_2 {width: 118px; padding-right: 56px;}
+#oneStep .case .right ul .li_3 {width: 121px; padding-right: 62px;}
+#oneStep .case .right ul .li_4 {width: 135px;}
+#oneStep .readMore {text-align: center; padding-bottom: 42px;}
+
+/* classConfig */
+#classConfig {text-align: center; padding-bottom: 50px;}
+#classConfig .classConfig_title {padding-left: 279px;}
+#classConfig h1 { padding-top: 14px; font-size: 41px; line-height: 56px; color: #231815;}
+#classConfig h2 { padding-bottom: 16px; font-size: 40px; line-height: 55px; color: #d63b11;}
+#classConfig span {font-weight: bold;}
+#classConfig .pics {text-align: center; padding-bottom: 23px;}
+#classConfig .pics img {padding: 0 15px;}
+#classConfig .title {line-height: 63px; font-size: 21px; color: #FFF; background-color: #242424; margin: 0 1px 0 2px; border-top: 1px solid #CCC; }
+#classConfig .sub_title {color: #242424; background-color: #ffcb4d; font-size: 14px; line-height: 31px; margin: 0 1px 0 2px; border-bottom: 1px #fff solid; border-top: 1px #fff solid;}
+#classConfig .sub_title p {float: left;}
+#classConfig .sub_title .span_1 {width: 111px;}
+#classConfig .sub_title .span_2 {width: 191px;}
+#classConfig .sub_title .span_3 {width: 294px;}
+#classConfig .sub_title .span_4 {width: 245px;}
+#classConfig .sub_title .span_5 {width: 133px;}
+#classConfig .table {background-color: #CCC; font-size: 12px; margin: 0 1px 0 2px; color: #333;}
+#classConfig .table > li {float: left;}
+#classConfig .table .col_1 {width: 133px; border-right: 1px #FFF solid;}
+#classConfig .table .col_1 > p {border-bottom: 1px #FFF solid;}
+#classConfig .table .col_1 .row_1 {line-height: 1116px;}
+#classConfig .table .col_1 .row_2 {line-height: 799px;}
+#classConfig .table .col_1 .row_3 {line-height: 1119px;}
+#classConfig .table .col_1 .row_4 {line-height: 946px;}
+#classConfig .table .col_1 .row_5 {line-height: 466px;}
+#classConfig .table .col_1 .row_6 {line-height: 159px;}
+#classConfig .table .col_1 .row_7 {line-height: 318px; border: none;}
+#classConfig .table .col_2 {width: 193px; border-right: 1px #FFF solid;}
+#classConfig .table .col_2 p {border-bottom: 1px #FFF solid;}
+#classConfig .table .col_2 .row_1 {height: 59px; line-height: 59px;}
+#classConfig .table .col_2 .row_2 {height: 102px; line-height: 102px;}
+#classConfig .table .col_2 .row_3 {height: 78px; line-height: 78px;}
+#classConfig .table .col_2 .row_4 {height: 80px; line-height: 80px;}
+#classConfig .table .col_2 .row_5 {height: 100px; line-height: 100px;}
+#classConfig .table .col_2 .row_6 {height: 78px; line-height: 78px;}
+#classConfig .table .col_2 .row_7 {height: 56px; line-height: 56px;}
+#classConfig .table .col_2 .row_8 {height: 77px; line-height: 77px;}
+#classConfig .table .col_2 .row_9 {height: 79px; line-height: 79px;}
+#classConfig .table .col_2 .row_10 {height: 78px; line-height: 78px;}
+#classConfig .table .col_2 .row_11 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_12 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_13 {height: 56px; line-height: 56px;}
+#classConfig .table .col_2 .row_14 {height: 102px; line-height: 102px;}
+#classConfig .table .col_2 .row_15 {height: 56px; line-height: 56px;}
+#classConfig .table .col_2 .row_16 {height: 102px; line-height: 102px;}
+#classConfig .table .col_2 .row_17 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_18 {height: 319px; line-height: 319px;}
+#classConfig .table .col_2 .row_19 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_20 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_21 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_22 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_23 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_24 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_25 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_26 {height: 306px; line-height: 306px;}
+#classConfig .table .col_2 .row_27 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_28 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_29 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_30 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_31 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_32 {height: 34px; line-height: 34px;}
+#classConfig .table .col_2 .row_33 {height: 56px; line-height: 56px;}
+#classConfig .table .col_2 .row_34 {height: 214px; line-height: 214px;}
+#classConfig .table .col_2 .row_35 {height: 56px; line-height: 56px;}
+#classConfig .table .col_2 .row_36 {height: 102px; line-height: 102px;}
+#classConfig .table .col_2 .row_37 {height: 159px; line-height: 159px;}
+#classConfig .table .col_2 .row_38 {height: 159px; line-height: 159px; border: none;}
+#classConfig .table .col_3 {width: 392px; border-right: 1px #FFF solid; text-align: left; }
+#classConfig .table .col_3 p {border-bottom: 1px #FFF solid; line-height: 22px; padding: 0 10px 0 5px; white-space: nowrap;}
+#classConfig .table .col_3 .row_1 {height: 51px; padding-top: 8px;}
+#classConfig .table .col_3 .row_2 {height: 72px; padding-top: 30px;}
+#classConfig .table .col_3 .row_3 {height: 72px; padding-top: 6px;}
+#classConfig .table .col_3 .row_4 {height: 74px; padding-top: 6px;}
+#classConfig .table .col_3 .row_5 {height: 94px; padding-top: 6px;}
+#classConfig .table .col_3 .row_6 {height: 72px; padding-top: 6px;}
+#classConfig .table .col_3 .row_7 {height: 51px; padding-top: 5px;}
+#classConfig .table .col_3 .row_8 {height: 71px; padding-top: 6px;}
+#classConfig .table .col_3 .row_9 {height: 73px; padding-top: 6px;}
+#classConfig .table .col_3 .row_10 {height: 73px; padding-top: 5px;}
+#classConfig .table .col_3 .row_11 {height: 103px; padding-top: 56px;}
+#classConfig .table .col_3 .row_12 {height: 114px; padding-top: 45px;}
+#classConfig .table .col_3 .row_13 {height: 50px; padding-top: 6px;}
+#classConfig .table .col_3 .row_14 {height: 85px; padding-top: 17px;}
+#classConfig .table .col_3 .row_15 {height: 51px; padding-top: 5px;}
+#classConfig .table .col_3 .row_16 {height: 73px; padding-top: 29px;}
+#classConfig .table .col_3 .row_17 {height: 114px; padding-top: 45px;}
+#classConfig .table .col_3 .row_18_1 {height: 103px; padding-top: 56px;}
+#classConfig .table .col_3 .row_18_2 {height: 103px; padding-top: 56px;}
+#classConfig .table .col_3 .row_19 {height: 103px; padding-top: 56px;}
+#classConfig .table .col_3 .row_20_1 {height: 73px; padding-top: 5px;}
+#classConfig .table .col_3 .row_20_2 {height: 63px; padding-top: 17px;}
+#classConfig .table .col_3 .row_21 {height: 104px; padding-top: 55px;}
+#classConfig .table .col_3 .row_22_1 {height: 72px; padding-top: 6px;}
+#classConfig .table .col_3 .row_22_2 {height: 64px; padding-top: 16px;}
+#classConfig .table .col_3 .row_23 {height: 103px; padding-top: 56px;}
+#classConfig .table .col_3 .row_24_1 {height: 73px; padding-top: 5px;}
+#classConfig .table .col_3 .row_24_2 {height: 63px; padding-top: 17px;}
+#classConfig .table .col_3 .row_25 {height: 102px; padding-top: 57px;}
+#classConfig .table .col_3 .row_26_1 {height: 73px; padding-top: 5px;}
+#classConfig .table .col_3 .row_26_2 {height: 95px; padding-top: 5px;}
+#classConfig .table .col_3 .row_26_3 {height: 86px; padding-top: 40px;}
+#classConfig .table .col_3 .row_27_1 {line-height: 34px;}
+#classConfig .table .col_3 .row_27_2 {height: 51px; padding-top: 5px;}
+#classConfig .table .col_3 .row_27_3 {line-height: 67px;}
+#classConfig .table .col_3 .row_28_1 {height: 51px; padding-top: 5px;}
+#classConfig .table .col_3 .row_28_2 {height: 51px; padding-top: 5px;}
+#classConfig .table .col_3 .row_28_3 {line-height: 45px;}
+#classConfig .table .col_3 .row_29 {height: 102px; padding-top: 57px;}
+#classConfig .table .col_3 .row_30 {height: 114px; padding-top: 45px;}
+#classConfig .table .col_3 .row_31 {height: 103px; padding-top: 56px;}
+#classConfig .table .col_3 .row_32 {line-height: 34px;}
+#classConfig .table .col_3 .row_33 {height: 51px; padding-top: 5px;}
+#classConfig .table .col_3 .row_34 {height: 141px; padding-top: 73px;}
+#classConfig .table .col_3 .row_35 {height: 51px; padding-top: 5px;}
+#classConfig .table .col_3 .row_36 {height: 74px; padding-top: 28px;}
+#classConfig .table .col_3 .row_37 {height: 103px; padding-top: 56px;}
+#classConfig .table .col_3 .row_38 {height: 103px; padding-top: 56px; border: none;}
+#classConfig .table .col_4 {width: 278px; text-align: center;}
+#classConfig .table .col_4 p {border-bottom: 1px #FFF solid;}
+#classConfig .table .col_4 .row_1 {height: 153px; padding-top: 9px;}
+#classConfig .table .col_4 .row_2 {height: 154px; padding-top: 5px;}
+#classConfig .table .col_4 .row_3 {height: 192px; padding-top: 44px;}
+#classConfig .table .col_4 .row_4 {height: 192px; padding-top: 44px;}
+#classConfig .table .col_4 .row_5 {height: 153px; padding-top: 6px;}
+#classConfig .table .col_4 .row_5_end {height: 153px; padding-top: 6px; border: none;}
+#classConfig .table .col_4 .row_6 {height: 300px; padding-top: 6px;}
+
+/* showProject */
+#showProject {text-align: center;}
+#showProject .showWorks {padding: 47px 0 0 44px;}
+#showProject .showWorks .items_1 .item { width: 433px; height: 298px; margin-right: 37px; float: left; background: url("../images/showProject_1.png") no-repeat; text-align: left; position: relative;}
+#showProject .showWorks .items_1 .item .big_pic img {padding: 15px 0 41px 52px; width: 330px; height: 207px;}
+#showProject .showWorks .items_1 .item .controls_pic {position: absolute; top: 106px; left: 51px;}
+#showProject .showWorks .items_1 .item .controls_pic .left {margin-right: 284px;}
+#showProject .showWorks .items_1 .item .words {text-align: center;}
+#showProject .showWorks .items_2 {padding: 37px 0 0 7px;}
+#showProject .showWorks .items_2 > div {float: left; margin-right: 59px;}
+#showProject .showWorks .items_2 .left > div {float: left;}
+#showProject .showWorks .items_2 .left .left_1 {width: 102px; padding-top: 54px;}
+#showProject .showWorks .items_2 .left .left_1 img {margin-bottom: 17px;}
+#showProject .showWorks .items_3 {padding-top: 29px;}
+#showProject .showWorks .items_3 > div {float: left; margin-right: 57px;}
+#showProject .showWorks .items_4 {padding: 29px 0 22px 0;}
+
+#showProject .module_page_bottom .title {text-align: left; padding-left: 29px;}
+#showProject .module_page_bottom .title h1 {font-size: 47px; line-height: 59px; color: #131313;}
+#showProject .module_page_bottom .title h2 {font-size: 49px; line-height: 61px; font-weight: 600; color: #131313;}
+#showProject .module_page_bottom .title h2 span {font-size: 61px; color: #d10b0b;}
+
+#showProject .moreStudent {text-align: left;}
+#showProject .moreStudent ul {padding: 29px 0 22px 17px;}
+#showProject .moreStudent ul li {padding-bottom: 16px;}
+#showProject .moreStudent ul li .items {float: left; height: 205px; width: 322px; background: url("../images/moreStudent_13.png") no-repeat right center;}
+#showProject .moreStudent ul li .items img {padding-left: 4px;}
+#showProject .moreStudent ul li .items > div {float: left; text-align: center}
+#showProject .moreStudent ul li .items .right {width: 177px; padding-right: 5px;}
+#showProject .moreStudent ul li .items .right h3 {padding-top: 18px; font-size: 18px; line-height: 30px; font-weight: bold; color: #2f2f2f;}
+#showProject .moreStudent ul li .items .right h4 {font-size: 15px; line-height: 19px; color: #505050; font-weight: bold;}
+#showProject .moreStudent ul li .items .right h5 {font-size: 15px; line-height: 19px; color: #6c6c6c; padding-bottom: 19px;}
+#showProject .moreStudent ul li .items .right h6 {font-size: 17px; line-height: 23px; color: #3e3e3e; font-weight: bold; text-align: left; padding-left: 12px;}
+#showProject .moreStudent ul li .items .right h1 {font-size: 37px; line-height: 43px; color: #ff9c00; font-weight: bolder; padding-left: 12px; text-align: left;}
+#showProject .moreStudent ul li .items .right h1 .unit {font-size: 22px; line-height: 28px; display: block; float: left;}
+#showProject .moreStudent ul li .items .right h1 .number { display: block; float: left;}
+
+#showProject .moreMaster ul {padding: 19px 0 68px 27px;}
+#showProject .moreMaster ul li > div {float: left;}
+#showProject .moreMaster ul li > .pic {width: 300px; height: 175px; overflow: hidden;}
+#showProject .moreMaster ul li .info {width: 175px; height: 175px;}
+#showProject .moreMaster ul li .info h4 {font-size: 18px; line-height: 22px; color: #FFF;}
+#showProject .moreMaster ul li .info .left {text-align: left; padding-left: 16px;}
+#showProject .moreMaster ul li .info .right {text-align: right; padding-right: 23px;}
+#showProject .moreMaster ul li .info h3 {padding-top: 8px; font-size: 21px; line-height: 25px; color: #FFF; font-weight: bold;}
+#showProject .moreMaster ul li .box_1 {background-color: #6350c6;}
+#showProject .moreMaster ul li .box_1 .pic {padding: 25px 0 3px 0;}
+#showProject .moreMaster ul li .box_2 {background-color: #27c8a8;}
+#showProject .moreMaster ul li .box_2 .pic {padding: 25px 0 3px 0;}
+#showProject .moreMaster ul li .box_3 {background-color: #232323;}
+#showProject .moreMaster ul li .box_3 .pic {padding: 21px 0 3px 0;}
+#showProject .moreMaster ul li .box_4 {background-color: #c67d64;}
+#showProject .moreMaster ul li .box_4 .pic {padding: 25px 0 3px 0;}
+#showProject .moreMaster ul li .box_5 {background-color: #e8383a;}
+#showProject .moreMaster ul li .box_5 .pic {padding: 17px 0 3px 0;}
+#showProject .moreMaster ul li .box_6 {background-color: #fea338;}
+#showProject .moreMaster ul li .box_6 .pic {padding: 17px 0 3px 0;}
+#showProject .moreMaster ul li .box_7 {background-color: #a450a7;}
+#showProject .moreMaster ul li .box_7 .pic {padding: 20px 0 3px 0;}
+#showProject .moreMaster ul li .box_8 {background-color: #2cbbdf;}
+#showProject .moreMaster ul li .box_8 .pic {padding: 25px 0 3px 0;}
+
+#showProject .moreTeacher ul {padding: 8px 0 0 32px;}
+#showProject .moreTeacher ul li {width: 76px; margin: 0 6px; height: 210px; float: left; padding-top: 226px;}
+#showProject .moreTeacher ul h4 {font-size: 14px; line-height: 14px; text-align: right; color: #444;}
+#showProject .moreTeacher ul h5 {font-size: 12px; line-height: 12px; text-align: right; color: #666;}
+#showProject .moreTeacher ul h6 {font-size: 5px; line-height: 5px; text-align: right; color: #666;}
+#showProject .moreTeacher ul div {font-size: 10px; line-height: 32px; padding-top: 5px;}
+#showProject .moreTeacher ul p {font-size: 10px; line-height: 12px; text-align: left;}
+#showProject .moreTeacher ul .bg_1 {background: url("../images/moreTeacher_1.png") no-repeat top center;}
+#showProject .moreTeacher ul .bg_2 {background: url("../images/moreTeacher_2.png") no-repeat top center;}
+#showProject .moreTeacher ul .bg_3 {background: url("../images/moreTeacher_3.png") no-repeat top center;}
+#showProject .moreTeacher ul .bg_4 {background: url("../images/moreTeacher_4.png") no-repeat top center;}
+#showProject .moreTeacher ul .bg_5 {background: url("../images/moreTeacher_5.png") no-repeat top center;}
+#showProject .moreTeacher ul .bg_6 {background: url("../images/moreTeacher_6.png") no-repeat top center;}
+#showProject .moreTeacher ul .bg_7 {background: url("../images/moreTeacher_7.png") no-repeat top center;}
+#showProject .moreTeacher ul .bg_8 {background: url("../images/moreTeacher_8.png") no-repeat top center;}
+#showProject .moreTeacher ul .bg_9 {background: url("../images/moreTeacher_9.png") no-repeat top center;}
+#showProject .moreTeacher ul .bg_10 {background: url("../images/moreTeacher_10.png") no-repeat top center;}
+#showProject .moreTeacher ul .bg_11 {background: url("../images/moreTeacher_11.png") no-repeat top center;}
+
+#showProject .relation p {padding: 16px 0 30px 31px; color: #131313; font-size: 17px; line-height: 26px; text-align: left; }
+#showProject .relation p span {color: #d10b0b; font-size: 19px; font-weight: bold;}
+#showProject .relation ul {padding-bottom: 33px;}
+#showProject .relation img {margin-left: 5px; padding-bottom: 16px;}
+#showProject .relation .first {margin-left: 4px;}
+
+#showProject .dream .pic {padding: 7px 0 0 5px;}
+#showProject .dream > .words {border: 3px solid #e8383a; width: 927px; margin-left: 5px; padding: 19px 0 14px 66px; text-align: left;}
+#showProject .dream > .words p {font-size: 23px; line-height: 35px; }
+#showProject .dream .canI {width: 959px; height: 437px; border-bottom: 1px solid #c0c0c0; margin-left: 21px; background: url("../images/dream_13.png") no-repeat 662px 24px; text-align: right;}
+#showProject .dream .canI > div {width: 631px;}
+#showProject .dream .canI h1 {padding-top: 67px; font-size: 56px; line-height: 84px; font-weight: bold; color: #d10b0b;}
+#showProject .dream .canI h3 {font-size: 38px; line-height: 52px; color: #131313;}
+#showProject .dream .canI h2 {font-size: 48px; line-height: 64px; font-weight: bold; color: #131313;}
+#showProject .dream .canI div {padding: 17px 40px 0 0;}
+#showProject .dream .help h1 {font-size: 56px; line-height: 86px; color: #d10b0b; font-weight: bolder; padding-top: 25px;}
+#showProject .dream .help h4 {font-size: 32px; line-height: 46px; color: #131313; padding-left: 13px;}
+#showProject .dream .help h2 {font-size: 48px; line-height: 62px; color: #131313; padding-left: 10px; font-weight: bolder;}
+#showProject .dream .help ul {padding-left: 76px;}
+#showProject .dream .help > div {padding: 13px 0 66px 0;}
+#showProject .dream .help ul li {float: left; text-align: left;}
+
+/* footer */
+#footer {height: 72px; background: url("../images/footer_1.png") repeat-x; text-align: center;}
+#footer ul .left {font-size: 14px; line-height: 20px; text-align: left; color: #FFF; padding: 15px 0 0 60px; float: left;}
+#footer ul .left a {color: #FFF;}
+#footer ul .right {float: right; padding: 27px 56px 0 0;}
+
+
+
