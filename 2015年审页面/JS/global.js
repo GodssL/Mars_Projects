@@ -6,5 +6,6 @@ requirejs.config({
     paths: {
         jquery: "jquery-1.11.3.min",
         animation: "MyAnimation"
-    }
+    },
+    urlArgs: "bust=" +  (new Date()).getTime()
 });

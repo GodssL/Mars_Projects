@@ -94,13 +94,28 @@ define(["jquery"], function($) {
                 var job = setInterval(task, interval);
             };
 
-            // 沿Y轴翻转效果
+            // 沿Y轴翻转效果(h5)
             this.rollover_Y = function(config, delay) {
                 // config: [{selector: "...", speed: ..}, {...}, ...]
                 function task (){
                     if(config.length != 0) {
                         var c = config.shift();
-                        $(c.selector).css({"-webkit-animation-name": "reverse", "-moz-animation-name": "reverse", "-o-animation-name": "reverse", "animation-name": "reverse", "-webkit-animation-duration": c.speed + "s", "-moz-animation-duration": c.speed + "s", "-o-animation-duration": c.speed + "s", "animation-duration": c.speed + "s"});
+                        $(c.selector).css({"-webkit-animation-name": "reverseY", "-moz-animation-name": "reverseY", "-o-animation-name": "reverseY", "animation-name": "reverseY", "-webkit-animation-duration": c.speed + "s", "-moz-animation-duration": c.speed + "s", "-o-animation-duration": c.speed + "s", "animation-duration": c.speed + "s"});
+                        $(c.selector).css({"filter": "alpha(opacity=1)", "-moz-opacity": "1", "-khtml-opacity": "1", "opacity": "1"});
+                    }else{
+                        clearInterval(job);
+                    }
+                }
+                var job = setInterval(task, delay)
+            };
+
+            // 沿X轴翻转效果(h5)
+            this.rollover_X = function(config, delay) {
+                // config: [{selector: "...", speed: ..}, {...}, ...]
+                function task (){
+                    if(config.length != 0) {
+                        var c = config.shift();
+                        $(c.selector).css({"-webkit-animation-name": "reverseX", "-moz-animation-name": "reverseX", "-o-animation-name": "reverseX", "animation-name": "reverseX", "-webkit-animation-duration": c.speed + "s", "-moz-animation-duration": c.speed + "s", "-o-animation-duration": c.speed + "s", "animation-duration": c.speed + "s"});
                         $(c.selector).css({"filter": "alpha(opacity=1)", "-moz-opacity": "1", "-khtml-opacity": "1", "opacity": "1"});
                     }else{
                         clearInterval(job);
