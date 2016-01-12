@@ -42,7 +42,7 @@ body {display: none; font-family: Arial, "微软雅黑"; background-image: url("
 #banner .middle .sp3 {font-size: 60px; line-height: 74px; font-weight: lighter;}
 #banner .middle .pic1 {width: 319px; height: 40px; margin: 0 auto; display: inline-block; background-image: url("../images/banner_middle_img1.png"); margin-top: 9px; float: none;}
 #banner .middle form {height: 44px; width: 343px; background-image: url("../images/banner_middle_img2.png"); margin: 0 auto; margin-top: 16px; text-align: left; padding:7px 0 0 36px;}
-#banner .middle form .text {border: none; line-height: 38px; background-image: url("../images/banner_middle_text_bg.png"); width: 202px; margin-right: 13px; color: #ababab; vertical-align: middle;}
+#banner .middle form .text {border: none; line-height: 38px; height: 38px; background-image: url("../images/banner_middle_text_bg.png"); width: 202px; margin-right: 13px; color: #ababab; vertical-align: middle;}
 #banner .middle form .getGold {width: 108px; height: 38px; vertical-align: middle;}
 #banner .right {width: 669px;}
 
@@ -150,7 +150,8 @@ body {display: none; font-family: Arial, "微软雅黑"; background-image: url("
 #adobe .box > .left {padding-top: 42px; width: 330px; margin-left: 140px;}
 #adobe .box > .left .text {margin-left: -330px;}
 #adobe .box > .right {padding-top: 52px; width: 469px; margin-left: 65px;}
-#adobe .box > .right .text {margin-left: -346px;}
+#adobe .box > .right .text {overflow: hidden;}
+#adobe .box > .right .text > div {margin-left: -346px;}
 #adobe .box > .readMore {padding-top: 76px; text-align: center; float: none;}
 
 /* appleClassroom */
@@ -384,8 +385,8 @@ body {display: none; font-family: Arial, "微软雅黑"; background-image: url("
 #showProject .showWorks .items_1 .item .controls_pic {position: absolute; top: 106px; left: 51px;}
 #showProject .showWorks .items_1 .item .controls_pic .left {margin-right: 284px;}
 #showProject .showWorks .items_1 .item .words {text-align: center;}
-#showProject .showWorks .items_2 {padding: 37px 0 0 7px;}
-#showProject .showWorks .items_2 > div {float: left; margin-right: 59px;}
+#showProject .showWorks .items_2 {padding: 37px 0 0 7px; width: 1000px;}
+#showProject .showWorks .items_2 > div {float: left; width: 480px;}
 #showProject .showWorks .items_2 .left > div {float: left;}
 #showProject .showWorks .items_2 .left .left_1 {width: 102px; padding-top: 54px;}
 #showProject .showWorks .items_2 .left .left_1 img {margin-bottom: 17px;}
@@ -444,7 +445,7 @@ body {display: none; font-family: Arial, "微软雅黑"; background-image: url("
 #showProject .moreTeacher ul h5 {font-size: 12px; line-height: 12px; text-align: right; color: #666;}
 #showProject .moreTeacher ul h6 {font-size: 5px; line-height: 5px; text-align: right; color: #666;}
 #showProject .moreTeacher ul div {font-size: 10px; line-height: 32px; padding-top: 5px;}
-#showProject .moreTeacher ul p {font-size: 10px; line-height: 12px; text-align: left;}
+#showProject .moreTeacher ul p {font-size: 10px; line-height: 12px; text-align: left; word-break: break-all;}
 #showProject .moreTeacher ul .bg_1 {background: url("../images/moreTeacher_1.png") no-repeat top center; margin-top: -436px;}
 #showProject .moreTeacher ul .bg_2 {background: url("../images/moreTeacher_2.png") no-repeat top center; margin-top: 449px;}
 #showProject .moreTeacher ul .bg_3 {background: url("../images/moreTeacher_3.png") no-repeat top center; margin-top: -436px;}
